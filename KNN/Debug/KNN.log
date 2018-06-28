@@ -1,0 +1,20 @@
+﻿  KNN.cpp
+c:\users\fcs\source\repos\knn\knn\knn.cpp(13): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(15): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(17): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(19): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(21): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(23): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(25): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(27): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(29): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+c:\users\fcs\source\repos\knn\knn\knn.cpp(37): warning C4101: “i”: 未引用的局部变量
+c:\users\fcs\source\repos\knn\knn\knn.cpp(38): warning C4101: “n”: 未引用的局部变量
+KNN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+KNN.obj : error LNK2019: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)，该符号在函数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被引用
+KNN.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+KNN.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+KNN.obj : error LNK2019: 无法解析的外部符号 _cvNorm，该符号在函数 "void __cdecl KNN(char *)" (?KNN@@YAXPAD@Z) 中被引用
+KNN.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z)，该符号在函数 "void __cdecl KNN(char *)" (?KNN@@YAXPAD@Z) 中被引用
+C:\Program Files\opencv\build\x64\vc15\lib\opencv_world340.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\FCS\source\repos\KNN\Debug\KNN.exe : fatal error LNK1120: 6 个无法解析的外部命令
